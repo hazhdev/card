@@ -1,0 +1,26 @@
+.content__card {
+  aspect-ratio: 4/3;
+  border: 2px solid var(--text-color-light);
+  margin: 7% 5vw 0 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.theme_dark .content__card {
+  border: 2px solid var(--border-color);
+}
+
+.content__card .content__card-title {
+  font-family: var(--accent-font);
+  font-weight: 600;
+  font-size: 60px;
+  margin: 0;
+}
+
+.content__card-subtitle {
+  font-family: var(--accent-raleway);
+  font-size: 18px;
+}

@@ -1,0 +1,50 @@
+@import url("/fonts/fonts.css");
+@import url("/styles/header.css");
+@import url("/styles/main/main.css");
+@import url("/styles/main/strategy.css");
+@import url("/styles/main/card.css");
+@import url("/styles/main/oblique.css");
+@import url("/styles/footer.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-light: #fff;
+  --text-color-light: #312A4E;
+  --accent-color-light: #FFAB6B;
+  --bg-color-dark: #121212;
+  --text-color-dark: #e0e0e0;
+  --accent-color-dark: #FFAB6B;
+  --accent-font: "STIX Two Text";
+  --accent-raleway: "Raleway";
+  --border-color: #B2B2B2;
+}
+
+.page {
+  min-inline-size: 360px;
+  max-inline-size: 1920px;
+  margin: 0 auto;
+  background-color: var(--bg-color-light);
+  color: var(--text-color-light);
+}
+
+.theme_dark {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color-dark);
+}
+
+p,
+h1,
+h2,
+h3,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: 0;
+}

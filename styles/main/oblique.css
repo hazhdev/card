@@ -1,0 +1,37 @@
+.content__oblique {
+  margin-bottom: 2em;
+}
+
+.content__title {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.content__list {
+  list-style: none;
+  padding: 0 5vw;
+  font-family: var(--accent-raleway);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.content__list li {
+  position: relative;
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.content__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  background: url('/images/marker-light.svg') no-repeat center center;
+}
+
+.theme_dark .content__list li::before {
+  background: url('/images/marker-dark.svg') no-repeat center center;
+}

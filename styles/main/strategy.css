@@ -1,0 +1,9 @@
+.content__paragraf-2 {
+    font-family: var(--accent-raleway);
+    font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
+    padding-left: 15vw;
+    line-height: 30px;
+    font-style: italic;
+    width: clamp(15.188rem, -0.199rem + 76.93vw, 80.5rem);
+    padding-bottom: 1.5em;
+}

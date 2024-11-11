@@ -1,0 +1,12 @@
+.footer {
+    border-top: 2px solid var(--text-color-light);
+    margin-top: 10vw;
+  }
+  
+  .footer__copyright {
+    font-size: 1rem;
+    padding: 2.5%;
+    font-family: inherit;
+    text-align: center;
+  }
+  
